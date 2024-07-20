@@ -1,3 +1,4 @@
+//to make the code faster
 typedef long long ll;
 
 #pragma GCC optimize("O3", "unroll-loops")
@@ -9,6 +10,7 @@ const static auto fast = []{
     return 0;
 }();
 
+//solution
 class Solution {
 public:
     vector<vector<ll>> twosum(vector<ll>& hello, long long target) {
